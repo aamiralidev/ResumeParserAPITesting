@@ -6,7 +6,7 @@
       "email": "aamirali.dev@gmail.com",
       "phone": "+92 322 7724884",
       "url": "https://aamirali-dev.github.io/",
-      "summary": "Generate based on job details",
+      "summary": "write a compelling summary based on the job details",
       "location": {
         "city": "Lahore",
         "countryCode": "PK",
@@ -91,81 +91,89 @@
       "awarder": "Company",
       "summary": "There is no spoon."
     }],
-    "certificates": [{
-      "name": "Certificate",
+    "certificates": [
+        "From the below list of certificates, choose those relevant to the job description and also sort them based on the relevance to the job description",
+        {
+      "name": "Certified Kubernetes Administrator ",
       "date": "2021-11-07",
-      "issuer": "Company",
+      "issuer": "KodeKloud",
       "url": "https://certificate.com"
     },{
-        "name": "Certificate",
+        "name": "Certified Kubernetes Security Specialist",
         "date": "2021-11-07",
-        "issuer": "Company",
+        "issuer": "KodeKloud",
         "url": "https://certificate.com"
       },{
-        "name": "Certificate",
+        "name": "Certified System Administrator ",
         "date": "2021-11-07",
-        "issuer": "Company",
+        "issuer": "Linux Foundation",
         "url": "https://certificate.com"
       },{
-        "name": "Certificate",
+        "name": "Back-End Developer",
         "date": "2021-11-07",
-        "issuer": "Company",
+        "issuer": "META",
         "url": "https://certificate.com"
       },{
-        "name": "Certificate",
+        "name": "Database Engineer",
         "date": "2021-11-07",
-        "issuer": "Company",
+        "issuer": "META",
         "url": "https://certificate.com"
       },{
-        "name": "Certificate",
+        "name": "Data Engineer",
         "date": "2021-11-07",
-        "issuer": "Company",
-        "url": "https://certificate.com"
-      },{
-        "name": "Certificate",
-        "date": "2021-11-07",
-        "issuer": "Company",
+        "issuer": "IBM",
         "url": "https://certificate.com"
       }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+    "publications": [
+        "Write publication only if relevant otherwise, remove the whole publication section",
+        {
+      "name": "Implementation of New Security Features in CMSWEB Kubernetes Cluster at CERN",
+      "publisher": "CERN",
+      "releaseDate": "2022-09-09",
+      "url": "https://cds.cern.ch/record/2826676"
     }],
     "skills": [{
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "name": "fill this section based on the job description, add 4 to 5 skills and 4-5 keywords in each skill",
+      "level": "select level based on the job description",
+      "keywords": []
     }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
+    "projects": [
+        "Select a list of only relevant projects based on the job description. remove this whole section if none of the project is relevant. try to sort the them as well based on their relevance",
+        {
+      "name": "CrypTop",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "this is a cryptocurrency analysis platform, modify the description based on the job description to make it more and more relevant",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "create a list of 5-7 bullet points based on the job description in the following format <what was the achievement><how it was achieved><and what was the impact>. try your best to include numerical metrices in achievements and impact like 15M, 20%, 25k"
       ],
       "url": "https://project.com/"
-    }]
+    },{
+        "name": "Algebrix",
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "this is a linear and non-linear algebriac calculator. it can solve single equation or a system of equations, modify the description based on the job description to make it more and more relevant",
+        "highlights": [
+          "create a list of 5-7 bullet points based on the job description in the following format <what was the achievement><how it was achieved><and what was the impact>. try your best to include numerical metrices in achievements and impact like 15M, 20%, 25k"
+        ],
+        "url": "https://project.com/"
+      },{
+        "name": "OtoDeck",
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "this is a DJ Player application for playing, controlling, and mixing multiple audios. modify the description based on the job description to make it more and more relevant",
+        "highlights": [
+          "create a list of 5-7 bullet points based on the job description in the following format <what was the achievement><how it was achieved><and what was the impact>. try your best to include numerical metrices in achievements and impact like 15M, 20%, 25k"
+        ],
+        "url": "https://project.com/"
+      },{
+        "name": "Hazri",
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "this is a mess attendance management system for hostel students. modify the description based on the job description to make it more and more relevant",
+        "highlights": [
+          "create a list of 5-7 bullet points based on the job description in the following format <what was the achievement><how it was achieved><and what was the impact>. try your best to include numerical metrices in achievements and impact like 15M, 20%, 25k"
+        ],
+        "url": "https://project.com/"
+      }]
   }
