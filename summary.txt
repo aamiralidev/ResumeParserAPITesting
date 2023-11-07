@@ -1,0 +1,36 @@
+
+1. put your name on the top 
+2. put the job title below it 
+3. put a list of skills on top (get list of skills from the AI based on JD)
+prompt engineer the skills that matters the most
+4. avoid buzzy/fuzzy/ambigious/ambitions words 
+5. profile statement
+"company values + job/position title, years of experiance, relevant skills, 
+field & domaim + focus, achievement  + anything special"
+6. experiance/project template
+<what was achieved/accomplished><how it was accomplished><what was the impact>
+also include numerical metrices like 15%, 12k, 5000, etc in achievement & impact
+7. Resume sections 
+	contact info: email, mobile, location, linkedin, potfolio, github
+	Areas of Experties (not skills)
+	Skills(segmented) like C++, java, C#, SQL, etc 
+	Skills Overview/Strengths: 4 bullets, 3 lines each (count words actually)
+	Project Achievements & Accomplishments: 4 bullets, 3 lines each 
+	Professional Work History in chronological order 5-7 bullets
+	education & relevant certifications
+
+1. find linkedin DM scripts from andrea profile 
+
+
+
+
+9. Resume must be 2 page long 
+10. Must create & send a cover letter including company values & mission
+
+also create a company interview prepration chatgpt script including following 
+functionality
+1. fetch job details
+2. fetch company details
+3. fetch company vision + mission + values + etc 
+4. fetch questions generally asked and then give that one by one to chatgpt, 
+to prepare a targeted answer 
