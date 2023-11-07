@@ -1,3 +1,12 @@
+Resume 2 Pdf 
+
+1. We can simply use Puppeteer headless browser to convert from html to pdf or md to pdf 
+2. we can also use Pandoc: a universal file converter but it first converts to html and then to pdf
+3. we can use reportlab library to directly produce beautiful PDFs 
+4. rinohtype is another library but still in beta mode, though provides a lot of customization and layout control 
+5. here is a library in js ['https://github.com/realdennis/md2pdf']
+
+
 
 1. put your name on the top 
 2. put the job title below it 
@@ -5,7 +14,7 @@
 prompt engineer the skills that matters the most
 4. avoid buzzy/fuzzy/ambigious/ambitions words 
 5. profile statement
-"company values + job/position title, years of experiance, relevant skills, 
+"company values if possible/given + job/position title like Software Engineer, years of experiance like 3+ years, relevant skills like Python/Java, 
 field & domaim + focus, achievement  + anything special"
 6. experiance/project template
 <what was achieved/accomplished><how it was accomplished><what was the impact>
@@ -34,3 +43,14 @@ functionality
 3. fetch company vision + mission + values + etc 
 4. fetch questions generally asked and then give that one by one to chatgpt, 
 to prepare a targeted answer 
+
+ChatGPT Prompts
+1. Profile Summary / Objective Statement 
+write me an objective statement of 40-50 words with the following instructions
+it should not include "seeking employment or looking for a job, eager to contribute etc"
+it should start with personification of company mission or values if given and possible otherwise 
+it should start with the job title followed by years of experiance, then relevant skills, relevant field or domain or area of focus, followed by optional achievement or anything special
+remember, the above job description is what I'm sending my application for hence don't mention this company name or one of its product name in objective summary
+also, don't enclose this objective summary in double quotes
+
+
