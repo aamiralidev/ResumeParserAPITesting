@@ -1,7 +1,4 @@
-from pathlib import Path
-from pprint import pprint
-import os 
-
+import os
 from affinda import AffindaAPI, TokenCredential
 from affinda.models import WorkspaceCreate, CollectionCreate
 
@@ -10,7 +7,6 @@ class Affinda:
     def __init__(self) -> None:
 
         token = os.environ.get('AFFINDA_API_KEY')
-        file_pth = Path("PATH_TO_DOCUMENT.pdf")
 
         credential = TokenCredential(token=token)
         client = AffindaAPI(credential=credential)
