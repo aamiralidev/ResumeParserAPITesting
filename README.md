@@ -37,8 +37,21 @@ This Python-based tool allows users to test and compare the results of different
     - For each API, add the corresponding API key to your environment variables or create a `.env` file in the project root. Example:
 
         ```env
-        API_KEY_API1=your_api_key_for_api1
-        API_KEY_API2=your_api_key_for_api2
+        SUPER_PARSER_API_KEY=""
+        APILAYER_API_KEY=""
+        SOVREN_ACCOUNT_ID=""
+        SOVREN_API_KEY=""
+        AFFINDA_API_KEY=""
+        AWS_BUCKET_NAME=""
+        AWS_SECRET_KEY=""
+        AWS_ACCESS_KEY=""
+        AWS_REGION=""
+        HIRIZE_API_KEY=""
+        EDEN_AI_RESUME_PARSING_API_KEY=""
+        HRFLOW_API_KEY=""
+        HRFLOW_API_USER_EMAIL=""
+        HRFLOW_APPLICATION_REFERENCE=""
+        HRFLOW_SOURCE_KEY=""
         ```
 
 4. Run the application:
