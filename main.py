@@ -5,6 +5,7 @@ from tkinter import messagebox
 import os
 from APIs import affinda, apilayer, sovren, superparser, hirize, hrflow, edenai
 from dotenv import load_dotenv
+from Exporters.jsonexporter import JsonExporter
 
 load_dotenv('.env')
 
@@ -49,7 +50,7 @@ def generate_output():
     SELECTED_APIS = selected_apis
     for api in selected_apis:
         client = APIS[api]()
-        print(client.parse(RESUME_PATH))
+        JsonExporter.export(os.path.join(OUTPUT_PATH, f'{api}.json'), client.parse(RESUME_PATH))
     # Add your code here to process selected APIs and generate the output
 
 # Function to open a file dialog for uploading a resume
