@@ -3,10 +3,24 @@ from tkinter import ttk
 from tkinter import filedialog
 from tkinter import messagebox
 import os
+from APIs import affinda, apilayer, sovren, superparser, hirize
+from dotenv import load_dotenv
+
+load_dotenv('.env')
+
 
 RESUME_PATH = None
 OUTPUT_PATH = None
 SELECTED_APIS = []
+APIS = {
+    'Affinda': affinda.Affinda,
+    'APILayer': apilayer.APILayer,
+    'SuperParser': superparser.SuperParser,
+    'HRFlow.ai': '',
+    'SOVREN': sovren.SOVREN,
+    'Hirize': hirize.Hirize,
+    'EdenAI': ''
+}
 
 # Function to generate the output JSON based on selected APIs
 def generate_output():
@@ -33,6 +47,9 @@ def generate_output():
     
     OUTPUT_PATH = output_folder
     SELECTED_APIS = selected_apis
+    for api in selected_apis:
+        client = APIS[api]()
+        print(client.parse(RESUME_PATH))
     # Add your code here to process selected APIs and generate the output
 
 # Function to open a file dialog for uploading a resume
@@ -74,15 +91,6 @@ frame3.pack(fill=tk.BOTH, pady=10, padx=200)
 # Create and place check buttons for API selection
 api_vars = []
 api_count = 0
-APIS = {
-    'Affinda': '',
-    'APILayer': '',
-    'SuperParser': '',
-    'HRFlow.ai': '',
-    'SOVREN': '',
-    'Hirize': '',
-    'EdenAI': ''
-}
 api_names = APIS.keys()
 
 for api_name in api_names:
