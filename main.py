@@ -106,7 +106,7 @@ upload_button.pack()
 resume_label = tk.Label(root, text="")
 resume_label.pack(pady=10)
 # Create the "Generate Output" button
-generate_button = ttk.Button(root, text="Generate Output", command=generate_output)
+generate_button = ttk.Button(root, text="Generate Results", command=generate_output)
 generate_button.pack()
 
 root.mainloop()
