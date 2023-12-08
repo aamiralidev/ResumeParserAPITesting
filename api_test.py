@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import filedialog
 from tkinter import messagebox
 import os
-from APIs import affinda, apilayer, sovren, superparser, hirize
+from APIs import affinda, apilayer, sovren, superparser, hirize, hrflow, edenai
 from dotenv import load_dotenv
 
 load_dotenv('.env')
@@ -16,10 +16,10 @@ APIS = {
     'Affinda': affinda.Affinda,
     'APILayer': apilayer.APILayer,
     'SuperParser': superparser.SuperParser,
-    'HRFlow.ai': '',
+    'HRFlow.ai': hrflow.Hrflow,
     'SOVREN': sovren.SOVREN,
     'Hirize': hirize.Hirize,
-    'EdenAI': ''
+    'EdenAI': edenai.EdenAIResumeParser
 }
 
 # Function to generate the output JSON based on selected APIs
